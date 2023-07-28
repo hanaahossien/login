@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark group">
+        <div class="container">
+            <a class="navbar-brand" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a onclick="logout()" class="nav-link btn btn-outline-warning " href="index.html">Logout</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5 text-center h-100 d-flex align-items-center">
+        <div class="group m-auto w-75 p-5">
+            <h3 id="username"></h3>
+        </div>
+    </div>
+   <script src="js/bootstrap.bundle.js"></script>
+     <script src="js/script.js"></script>
+    <script>
+
+checkuserlogin();
+    </script>
+  
+</body>
+</html>

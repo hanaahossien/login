@@ -31,7 +31,7 @@ function sigenup() {
     arruser.push(user);
 
     localStorage.setItem("listsigenup", JSON.stringify(arruser));
-    location.replace('https://' + location.hostname + '/login.html')
+window.location.replace("https://hanaahossien.github.io/login/login.html");
 
   }
   else

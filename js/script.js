@@ -65,7 +65,7 @@ function login() {
       console.log("login sucssed");
       var username = arruser[index].name;
       localStorage.setItem("islogin", JSON.stringify(username));
-      location.replace('https://' + location.hostname + '/login'+'/home.html')
+      location.replace('https://' + location.hostname +'/login/home.html')
 
 
       return true;
